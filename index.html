@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AEP 02 - DESENVOLVIMENTO DE APLICAÇÕES</title>
+</head>
+<body>
+	<pre>
+	<?php
+		require_once 'classePessoa.php';
+        $l1= new pessoa("Ismael Lucas",1998, 11155899970,1.67, 60.9);
+        $l1->Calculaimc();
+        $l1->Getimc();
+        $l1->Calculaidade();
+        $l1->Getidade();
+		print_r($l1);
+	?>
+	</pre>
+</body>
+</html>
